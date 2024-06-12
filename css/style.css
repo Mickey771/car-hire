@@ -734,6 +734,7 @@ hr {
 }
 .navbar-toggler-icon {
     background-image: none;
+    color: #fff;
 }
 .navbar .navbar-toggler-icon,
 .navbar .icon-bar {
