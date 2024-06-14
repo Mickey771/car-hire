@@ -1532,6 +1532,7 @@ font-family: 'Outfit', sans-serif;
 .video-fullscreen-wrap {
     height: 100vh;
     overflow: hidden;
+    position: relative;
 }
 .video-fullscreen-video {
     height: 100%;
@@ -6748,3 +6749,54 @@ height: 100% !important;
     outline: none;
     box-shadow: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* NAZADev css edits  */
+
+.skiptranslate{
+    display: none;
+    margin-left: 15px;
+}
+.goog-te-gadget{
+    display:flex;
+    position: relative;
+    width: 150px;
+    height: 50px;
+    overflow: hidden;
+}
+.goog-te-gadget div select{
+     width: 100%;
+     height: 50px;
+     position: absolute;
+     left:0;
+     top:-4px;
+     background-color: #222;
+     z-index: 10;
+     color: #fff;
+     border: 1px solid #fff;
+}
+
+.form1.submitted button{
+    color: #fff;
+    background-color: #918c8c;
+    cursor:progress;
+    pointer-events: none;
+}
+
