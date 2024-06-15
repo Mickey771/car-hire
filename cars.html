@@ -26,41 +26,70 @@
             <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
         </svg>
     </div>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg">
-        <div class="container">
-            <!-- Logo -->
-            <div class="logo-wrapper">
-                 <a class="logo" href="index.html"> <img src="img/logo-light.png" class="logo-img" alt=""> </a>
-               <!-- <a class="logo" href="index.html"><h2>Car<span>Hire</span></h2></a> -->
-            </div>
-            <!-- Button -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-            <!-- Menu -->
-            <div class="collapse navbar-collapse" id="navbar">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                    <li class="nav-item"> <a class="nav-link" href="services.html" role="button"  data-bs-auto-close="outside" aria-expanded="false">Services </a>
-                        
-                    </li>
-                    <li class="nav-item "> <a class="nav-link active" href="cars.html" role="button"  data-bs-auto-close="outside" aria-expanded="false">Cars </a>
-                    </li>
-                   
-                                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                </ul>
-                <div class="navbar-right">
-                    <div class="wrap">
-                        <div class="icon"> <i class="flaticon-phone-call"></i> </div>
-                        <div class="text">
-                            <p>Need help?</p>
-                             <h5><a href="tel:+41 77 526 80 96">+41 77 526 80 96</a></h5>
-                        </div>
+   <!-- Navbar -->
+   <nav class="navbar navbar-expand-lg">
+    <div class="container">
+        <!-- Logo -->
+        <div class="logo-wrapper">
+             <a class="logo" href="index.html"> <img src="img/logo-light.png" class="logo-img" alt=""> </a>
+           <!-- <a class="logo" href="index.html"><h2>Car<span>Hire</span></h2></a> -->
+        </div>
+        <!-- Button -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+        <!-- Menu -->
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item "> <a class="nav-link  " href="./index.html" role="button"   data-bs-auto-close="outside" aria-expanded="false">Home </a>
+                    <ul class="navbar-nav">
+                        <li><a href="index.html"></a></li>
+                              <ul class="dropdown-menu">
+                                <li><a href="onepage-slider.html" class="dropdown-item"><span>Slider 01</span></a></li>
+                                <li><a href="onepage-slider2.html" class="dropdown-item"><span>Slider 02</span></a></li>
+                                <li><a href="onepage-image.html" class="dropdown-item"><span>Image</span></a></li>
+                                <li><a href="onepage-video.html" class="dropdown-item"><span>Video</span></a></li>
+                                <li><a href="onepage-slideshow.html" class="dropdown-item"><span>Slideshow</span></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"> <a class="nav-link" href="services.html" role="button"  data-bs-auto-close="outside" aria-expanded="false">Services </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="services.html" class="dropdown-item"><span>Services 01</span></a></li>
+                        <li><a href="services2.html" class="dropdown-item"><span>Services 02</span></a></li>
+                        <li><a href="service-details.html" class="dropdown-item"><span>Service Details</span></a></li>
+                    </ul>
+                </li>
+                <li class="nav-item "> <a class="nav-link active" href="cars.html" role="button"  data-bs-auto-close="outside" aria-expanded="false">Cars </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="cars.html" class="dropdown-item"><span>Car Grid 01</span></a></li>
+                        <li><a href="cars2.html" class="dropdown-item"><span>Car Grid 02</span></a></li>
+                        <li><a href="cars3.html" class="dropdown-item"><span>Car Grid 03</span></a></li>
+                        <li><a href="cars4.html" class="dropdown-item"><span>Car Listing</span></a></li>
+                        <li><a href="car-types.html" class="dropdown-item"><span>Car Types 01</span></a></li>
+                        <li><a href="car-types2.html" class="dropdown-item"><span>Car Types 02</span></a></li>
+                        <li><a href="car-types3.html" class="dropdown-item"><span>Car Types 03</span></a></li>
+                        <li><a href="car-types4.html" class="dropdown-item"><span>Car Types 04</span></a></li>
+                        <li><a href="car-details.html" class="dropdown-item"><span>Car Details 01</span></a></li>
+                        <li><a href="car-details2.html" class="dropdown-item"><span>Car Details 02</span></a></li>
+                    </ul>
+                </li>
+               
+                                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+            <div class="navbar-right">
+                <div class="wrap">
+                    <div class="icon"> <i class="flaticon-phone-call"></i> </div>
+                    <div class="text">
+                        <p>Need help?</p>
+                         <h5><a href="tel:+41 77 526 80 96">+41 77 526 80 96</a></h5>
                     </div>
                 </div>
             </div>
         </div>
-    </nav>
+        <div id="google_translate_element" class="lang_init"></div>
+    </div>
+</nav>
     <!-- Header Banner -->
     <section class="banner-header section-padding bg-img" data-overlay-dark="6" data-background="img/slider/1.jpg">
         <div class="v-middle">
@@ -500,6 +529,12 @@
     <script src="js/datepicker.js"></script>
     <script src="js/YouTubePopUp.js"></script>
     <script src="js/custom.js"></script>
+
+    
+<script src="./js/language.js"></script>
+
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+@Irakozemasenge
 </body>
 
 <!-- Mirrored from duruthemes.com/demo/html/renax/dark/cars3.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 07 Jun 2024 05:03:18 GMT -->
